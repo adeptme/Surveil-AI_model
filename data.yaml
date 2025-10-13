@@ -1,0 +1,10 @@
+path: C:\Users\siyan\Documents\GitHub\3rd-year\Surveil-AI_model\dataset
+train: train\images
+val: valid\images
+
+nc: 1
+names: ['Vehicle']
+
+# nc: 4
+
+# names: ["sedan", "suv", "truck", "jeepneys"]
