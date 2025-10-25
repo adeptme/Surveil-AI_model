@@ -7,7 +7,7 @@ if __name__ == '__main__':
     model = YOLO("yolo11s.pt")
 
     # Train the model 
-    results = model.train(data="data.yaml", epochs=30, imgsz=640)
+    results = model.train(data="data.yaml", epochs=60, imgsz=[640, 480])
 
     # Run inference with the YOLO11s model on the 'bus.jpg' image
     # For testing model
