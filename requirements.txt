@@ -7,5 +7,6 @@ psutil
 opencv-python
 requests>=2.23.0
 ultralytics
-torch>=1.8.0 # Or specific version/variant
+torch>=1.8.0  # Or specific version/variant 
 torchvision>=0.9.0 # Or specific version/variant
+torchaudio

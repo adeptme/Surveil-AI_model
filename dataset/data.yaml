@@ -1,5 +1,5 @@
 train: ../train/images
-val: ../valid/images
+val: ../test/images
 test: ../test/images
 
 nc: 7
@@ -8,6 +8,6 @@ names: ['bus', 'car', 'jeepney', 'motorcycle', 'pickup-truck', 'truck', 'van']
 roboflow:
   workspace: projects-e62ux
   project: surveil_dataset-aan5w
-  version: 1
+  version: 21
   license: CC BY 4.0
-  url: https://universe.roboflow.com/projects-e62ux/surveil_dataset-aan5w/dataset/1
+  url: https://universe.roboflow.com/projects-e62ux/surveil_dataset-aan5w/dataset/21
